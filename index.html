@@ -1,29 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brayan Aguilar</title>
     <link rel="stylesheet" type="text/css" href="./Css/Main.min.css">
+    <link rel="icon" href="favicon.svg" type="image/svg">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.4/iconify-icon.min.js"></script>
 </head>
+
 <body>
-    <nav id="nav-main">
+    <nav id="nav_main">
         <ul id="nav_list">
-            <div id="group_brand">
-                <li id="logo"></li>
-                <li id="li_name">Brayan Aguilar</li>
+            <div id="group-brand">
+                <a href="./">
+                    <li id="logo">
+                        <img src="favicon.svg" alt="">
+                    </li>
+                    <li id="li_name">Brayan Aguilar</li>
+                </a>
             </div>
-            <li>Acerca de mí</li>
-            <li>
-                <a href="mailto:brayancarranza70@gmail.com?Subject=Me%20Interesa%20tu%20portafolio">Contacto</a>
-            </li>
+            <div id="group-about">
+                <li>
+                    <a href="#titule_s2">Acerca de mí</a>
+                </li>
+                <li>
+                    <a href="#titule_s3">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#titule_s4">Contacto</a>
+                </li>
+            </div>
         </ul>
     </nav>
 
-    <footer >
+    <div id="main">
+        <section id="ct_seccion-1">
+            <div id="sec_info">
+                <h1 id="titule_s1">Desarrollador Backend</h1>
+                <h3>
+                    Me gustan los retos, y me apoyo principalmente en el desarrollo backend <br>
+                    para crear soluciones tecnologicas
+                </h3>
+            </div>
+            <img id="img_central" src="./Images/Web Developer_Outline.png" alt="">
+        </section>
+
+        <section id="ct_seccion-2">
+            <div id="efect_wave_1">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M-0.27,4.43 C156.60,-13.32 375.00,195.88 500.00,49.98 L500.00,150.00 L0.00,150.00 Z">
+                    </path>
+                </svg>
+            </div>
+
+            <div id="ct_about_me">
+                <h2 id="titule_s2">Acerca de mí</h2>
+
+                <p>
+                    Tengo una sólida formación en el desarrollo backend, conocimientos básicos de fronted, entre otras tecnologías,
+                    siempre estoy aprendiendo nuevas habilidades, además, he completado varios proyectos personales y lo cual me
+                    ha permitido desarrollar habilidades en el diseño y desarrollo de software. Soy una persona proactiva,
+                    con una gran capacidad de aprendizaje y una gran pasión por la tecnología. Estoy seguro de que puedo
+                    contribuir al éxito de tu equipo y ser un valioso miembro.
+                </p>
+                <p>
+                    Un poco más sobre mí, me mantengo en constante crecimiento no solo en un ámbito laboral, también me gusta
+                    crecer personalmente, esto incluye el manejo de emociones, gestión personal, empatía, organización,
+                    cumplimiento de mis propios objetivos entre otros... <br><br>
+                    Como dato extra me gusta el mundo del emprendimiento
+                    si trabajamos juntos siempre estaré al tanto de los objetivos de la
+                    empresa y que queremos lograr.
+                </p>
+            </div>
+
+            <div id="efect_wave_2">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M-0.27,4.43 C156.60,-13.32 375.00,195.88 500.00,49.98 L500.00,150.00 L0.00,150.00 Z">
+                    </path>
+                </svg>
+            </div>
+        </section>
+
+        <section id="ct_seccion-3">
+            <div id="ct_skills">
+                <h2 id="titule_s3">Mis Habilidades</h2>
+
+                <p>
+                    Soy un desarrollador Fullstack con Sólidos conocimientos y especialización en desarrollo
+                    Backend con PHP, MySQL (desde la creación de la base de datos, hasta la implementación,
+                    optimización y conexión), POO, programación estructurada con mysqli, PDO, patrón MVC,
+                    utilización de herramientas como Laravel, Slim, Composer, Librerías, creación de APIS (REST),
+                    manejo de peticiones HTTP, CRUD, validación y sanitación de datos, manejo de RegExp,
+                    control de versiones con Git/GitHub, creación de la interfaz con HTML, CSS y Javascript
+                    puro, programación asíncrona con Javascript, manejo de librerías de terceros,
+                    uso del DOM, eventos, y otras herramientas que me ayudan a mejorar mi codigo.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <!-- <div id="efect_wave_3">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M-0.27,4.43 C156.60,-13.32 375.00,195.88 500.00,49.98 L500.00,150.00 L0.00,150.00 Z">
+                </path>
+            </svg>
+        </div> -->
+
         
+        <div id="ct_redes">
+            <h2 id="titule_s4">Contacto</h2>
+
+            <div id="link_info">
+                <a href="https://github.com/XBrayanX">
+                    <iconify-icon icon="mdi:github"></iconify-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/brayan-a-31a926207/">
+                    <iconify-icon icon="mdi:linkedin"></iconify-icon>
+                </a>
+    
+                <a href="mailto:brayancarranza70@gmail.com?Subject=Me%20Interesa%20tu%20portafolio" target="_blank">
+                    <iconify-icon icon="material-symbols:mark-email-unread-outline"></iconify-icon>
+                </a>
+            </div>
+        </div>
     </footer>
 
 </body>
+
 </html>
