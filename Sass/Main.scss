@@ -134,8 +134,11 @@ a:hover {
 }
 
 #sec_info h3 {
-    font-size: $font_titule_3;
+    // font-size: $font_titule_3;
+    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
     color: #292929;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -306,12 +309,7 @@ footer {
     }
 
     #img_skills{
-        max-width: 800px;
         justify-self: center;
         grid-column: 1/-1;
     }
-}
-
-@media screen and (max-width: 400px){//Telefono
-
 }
